@@ -1,5 +1,5 @@
 ![OctoshootAR banner](static/banner.png)
-OctoshootAR ! [![Build Status](https://api.travis-ci.org/nikhilnayak98/game-off-2016.svg?branch=master)](https://travis-ci.org/nikhilnayak98/game-off-2016)
+OctoshootAR
 =============
 A augmented reality game for github game-off 2016!
 
@@ -49,8 +49,8 @@ Compile SDK Version - 24
  * com.nineoldandroids:library
  * com.google.android.gms:play-services
  
-Releases
-========
+[Releases](https://github.com/nikhilnayak98/pgtrack-android-client/releases)
+===========================================================================
 
 #### v1.0.2
-  [Download]() 
+  [Download](https://github.com/nikhilnayak98/game-off-2016/releases/download/v1.0.2/OctoshootAR-debug.apk) 
