@@ -2,8 +2,7 @@
 OctoshootAR
 =============
 A augmented reality game for github game-off 2016!
-
-OctoshootAR is an "augmented reality" FPS. You have to seek, find and kill the octocats living around you.
+You have to seek, find and kill the octocats living around you.
 [![Download](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.nikhilnayak.games.octoshootar)
 
 License
