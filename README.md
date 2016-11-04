@@ -1,5 +1,5 @@
 ![OctoshootAR banner](static/banner.png)
-OctoshootAR !
+OctoshootAR ! [![Build Status](https://api.travis-ci.org/nikhilnayak98/game-off-2016.svg?branch=master)](https://travis-ci.org/nikhilnayak98/game-off-2016)
 =============
 A augmented reality game for github game-off 2016!
 
@@ -34,10 +34,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre>
 
-Dependencies
-============
+Build and Dependencies
+======================
 
+Build Tools Version - 24.0.2
+Minimum SDK Version - 14
+Compile SDK Version - 24
+
+## Dependencies
+ 
  * com.android.support:gridlayout
  * com.android.support:support
  * com.android.support:cardview
  * com.nineoldandroids:library
+ * com.google.android.gms:play-services
+ 
+Releases
+========
+
+#### v1.0.2
+  [Download]() 
