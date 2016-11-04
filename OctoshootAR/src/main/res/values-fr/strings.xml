@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2016. Nikhil Nayak <nikhilnayak98@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+
+    <string name="app_name">Chase Whisply</string>
+
+    <string name="soon_tm">Bientôt …</string>
+
+    <!-- Home Activity !-->
+    <string name="home_play">Jouer</string>
+    <string name="home_leaderboard">Classements</string>
+    <string name="home_achievement">Réussites</string>
+    <string name="home_about">À Propos</string>
+    <string name="home_sign_in">Connexion</string>
+    <string name="home_sign_info">Connectez-vous à Google Plus pour partager vos scores et vos
+        réussites avec vos amis.
+    </string>
+    <string name="home_not_sign_in_leaderboard">Connectez-vous à Google Plus pour voir votre classement.</string>
+    <string name="home_not_sign_in_achievement">Connectez-vous à Google Plus pour débloquer vos réussites.</string>
+    <string name="home_sign_out">Déconnexion</string>
+    <string name="home_sign_out_confirm_dialog_message">Êtes-vous sûr(e) de vouloir vous déconnecter ?</string>
+    <string name="home_sign_out_success">Vous avez été déconnecté(e) avec succès.</string>
+    <string name="home_internet_unavailable">Veuillez vous connecter à Internet.</string>
+    <string name="home_profile">Profil</string>
+    <string name="home_device_not_compatible">Désolé, mais votre terminal ne semble pas compatible.</string>
+    <string name="home_i_button_on_long_press">A propos</string>
+    <string name="home_help_button_on_long_press">Aide</string>
+
+    <!-- in game !-->
+    <string name="in_game_kill_counter">Frag : %1$d</string>
+    <string name="in_game_combo_counter">x %1$d</string>
+    <string name="in_game_score">Score : %1$d</string>
+    <string name="in_game_time">Temps : %1$d s</string>
+    <string name="in_game_no_ammo_message">Pas de munition</string>
+
+    <!-- Level Chooser Activity !-->
+    <string name="level_chooser">Sélectionnez une mission</string>
+    <string name="fragment_game_mode_chooser_remember">Ce jeu est en cours de développement, n\'hésitez pas à nous envoyez un rapport de bug ou une suggestion depuis les paramètres du jeu.</string>
+
+    <!-- Leaderboard Chooser Fragment !-->
+    <string name="leaderboard_chooser_title">Séléctionnez un classement</string>
+    <string name="leaderboard_chooser_title_overall_ranking">Classement Général</string>
+    <string name="leaderboard_chooser_title_sprint">Les éclaireurs d\'abord</string>
+    <string name="leaderboard_chooser_time_limited_level_2_description">60 seconds High Scores.</string>
+    <string name="leaderboard_chooser_title_marathon">Prouvez votre endurance</string>
+    <string name="leaderboard_chooser_title_survival">L\'Ultime Bataille</string>
+    <string name="leaderboard_chooser_title_death_to_the_king">Mort au Roi</string>
+    <string name="leaderboard_chooser_title_memorize">Casse tête</string>
+    <string name="leaderboard_chooser_title_twenty_in_a_row">Tout n\'est qu\'illusion…</string>
+
+    <!-- Game Mode requirements !-->
+    <string name="game_mode_required_message_twenty_in_a_row">Tout n\'est qu\'illusion: le grade Caporal de la mission "Les éclaireurs d\'abord" est requis.</string>
+    <string name="game_mode_required_message_marathon">Prouvez votre endurance: le grade Caporal de la mission "Tout n\'est qu\'illusion" est requis.</string>
+    <string name="game_mode_required_message_memorize">Casse tête: le grade Caporal de la mission "Prouvez votre endurance" est requis.</string>
+    <string name="game_mode_required_message_death_to_the_king">Mort au Roi: le grade Caporal de la mission "Casse tête" est requis.</string>
+    <string name="game_mode_required_message_survival">L\'Ultime Bataille: le grade Caporal de la mission "Mort au Roi" est requis.</string>
+
+    <!-- Game Mode titles !-->
+    <string name="game_mode_title_tutorial">Tutoriel : Apprennez à jouer.</string>
+    <string name="game_mode_title_sprint">Les éclaireurs d\'abord !</string>
+    <string name="game_mode_title_marathon">Prouvez votre endurance</string>
+    <string name="game_mode_title_survival">L\'Ultime Bataille</string>
+    <string name="game_mode_title_death_to_the_king">Mort au roi</string>
+    <string name="game_mode_title_twenty_in_a_row">Tout n\'est qu\'illusion…</string>
+    <string name="game_mode_title_memorize">Casse tête</string>
+
+    <!-- Game Mode rank rules !-->
+    <string name="game_mode_rank_rules_death_to_the_king">Terminez la mission en moins de %1$.1f secondes.</string>
+    <string name="game_mode_rank_rules_death_to_the_king_deserter">Terminez au moins une fois la mission.</string>
+    <string name="game_mode_rank_rules_memorize">Terminez la vague %1$d</string>
+    <string name="game_mode_rank_rules_sprint">Terminez la mission avec un score de %1$d ou plus.</string>
+    <string name="game_mode_rank_rules_sprint_deserter">Terminez au moins une fois la mission.</string>
+    <string name="game_mode_rank_rules_marathon">Prouvez votre endurance en terminant la mission avec un score de %1$d ou plus.</string>
+    <string name="game_mode_rank_rules_marathon_deserter">A défaut d\'être endurant, terminez au moins une fois la mission.</string>
+    <string name="game_mode_rank_rules_twenty_in_a_row">Tuez 20 bébés fantômes à la suite en moins de %1$d secondes.</string>
+    <string name="game_mode_rank_rules_twenty_in_a_row_deserter">Tuez 20 bébés fantômes à la suite.</string>
+    <string name="game_mode_rank_rules_survival">Restez en vie suffisamment longtemps pour obtenir un score de %1$d ou plus.</string>
+    <string name="game_mode_rank_rules_survival_deserter">Restez en vie jusqu\'à la fin de la mission.</string>
+
+
+    <!-- Game Mode long description !-->
+    <string name="game_mode_description_sprint">
+        Whisply et ses disciples ont eu vent de votre enrôlement dans l’armée
+        des chasseurs de fantôme. Préparez vous à résister aux premières vagues
+        d’éclaireurs ennemis qui se dirigent vers vous. Pas de quartier !</string>
+    <string name="game_mode_description_twenty_in_a_row">
+        Ne vous laissez pas influencer !
+        Ces mignons petits fantômes ont été envoyés pour vous destabiliser mais ne sont qu’illusion !
+        Whisply maitrise l’art du camouflage et n’hésitera pas à s’en servir.
+        Eliminez 20 bébés fantômes d’affilée pour prouver votre détermination.
+        Manquez un seul tire, et vous devrez recommencer depuis le début. Soyez précis!</string>
+    <string name="game_mode_description_marathon">
+        Vous commencez à représenter une vraie menace pour Whisply et les siens !
+        Une importante vague de fantômes se dirige vers vous.
+        Préparez vous à leur prouver votre endurance !
+        \n\nPour cette longue bataille, il peut être judicieux d’équiper un bonus afin
+        de ne pas être trop rapidement à court de munition!
+    </string>
+    <string name="game_mode_description_survival">
+        Maintenant que le roi est mort, Whisply et ses disciples n’ont plus rien à perdre.
+        Préparez vous pour l’ultime bataille qui s’annonce sans fin !
+        Vous regagnez du temps à chaque cibles abatues. Profitez en pour annéantir une bonne fois pour toute
+        un maximum de fantômes !
+    </string>
+    <string name="game_mode_description_death_to_the_king">
+        Plus aucun fantôme n’ose venir vous affronter !
+        Le roi a donc decidé de se déplacer en personne pour vous defier.
+        Retrouvez le et tuez le le plus rapidement possible avant qu’il ne change d’avis !
+        Attention, le roi ne se déplace jamais seul. Ne perdez pas de temps avec ses acolytes
+        et devenez le chasseur de fantômes le plus rapide de l’ouest.
+        \n\nDès que vous êtes prêt, appuyez sur l’écran pour invoquer le roi et ses acolytes !
+        \n\nMalheureusement pour vous, les bonus ne sont pas disponibles pour cette mission.</string>
+
+    <string name="game_mode_description_memorize">
+        Face à votre courage, Whisply a décidé de changer de stratégie !
+        Cette fois ci, c’est un vrai casse tête que vous devrez combattre !
+        Montrez lui qu’un chasseur de fantôme se doit d’avoir un cerveau et peut mémoriser plusieurs cibles à la fois.
+        \n\nVotre objectif est de mémoriser une liste de fantômes puis de les exécuter dans le bon ordre. Lors de chaque
+        nouvelle vague, un nouveau fantôme est ajouté à la liste.</string>
+
+    <!-- Score Activity !-->
+    <string name="score_number_of_bullets_fired">Balles tirées</string>
+    <string name="score_number_of_targets_killed">Cibles abattues</string>
+    <string name="score_max_combo">Combo Max</string>
+    <string name="score_exp_earned">Exp Gagnée</string>
+    <string name="score_final_score">Score Final</string>
+    <string name="score_lost">perdu</string>
+    <string name="score_skip_button">Passer</string>
+    <string name="score_replay_button">Rejouer</string>
+    <string name="score_home_button">Accueil</string>
+    <string name="score_share_button">Partager</string>
+    <string name="score_share_dialog">Partagez votre score avec l\'application de votre choix</string>
+    <string name="score_share_subject">Chase Whisply</string>
+    <string name="score_share_content">Je joue à Chase Whisply. Pouvez-vous battre mon score : %1$d
+        ? \n \n https://play.google.com/store/apps/details?id=fr.tvbarthel.games.chasewhisply
+    </string>
+    <string name="score_loot_title">Durant la chasse vous avez trouvé</string>
+    <string name="score_loot_default">rien du tout.</string>
+    <string name="score_title_fragment">Partie terminée</string>
+    <string name="score_title_grade">Grade :</string>
+    <string name="score_title_score">Score :</string>
+    <string name="score_title_details_card">Détails </string>
+    <string name="score_congratz_level_up">Vous venez de gagner un niveau.</string>
+    <string name="score_congratz_rank_up">Vous venez d\'améliorer votre grade.</string>
+    <string name="score_title_congratz_card">Félicitations !</string>
+    <string name="score_button_next_mission">Autre Mission</string>
+    <string name="score_loot_help_title">Aide</string>
+    <string name="score_loot_help_message">Les objets trouvés pendant votre chasse peuvent être transformés en bonus depuis votre inventaire. Vous trouverez votre inventaire dans votre profil.</string>
+
+    <!-- About Fragment -->
+    <string name="about_title">Chase Whisply</string>
+    <string name="about_version_detail">version %1$s</string>
+    <string name="about_developer_card_title">Développeurs</string>
+    <string name="about_tbarthel_name">Thomas \"Tbarthel\" Barthélémy</string>
+    <string name="about_vbarthel_name">Vincent \"Vbarthel\" Barthélémy</string>
+    <string name="about_thanks_section">Remerciements…</string>
+    <string name="about_thanks_tkeunebr">à Thomas Keunebroek, pour son support de la première heure et
+        ses précieux conseils.
+    </string>
+    <string name="about_thanks_beat_the_dev_winners">aux deux vainqueurs de l\'évènement \"Beat the Devs\" : Faly Sixlay &amp; BMX22C.</string>
+    <string name="about_thanks_beta_testers">à tous les beta testers, tout spécialement J. Morgan, M. Nasato, T. Lin Aung,
+        M. Coulon, C. Morris, C. Cuadra, A. Peng, J. Bastien, DARKSULLI, M. Bet, BMX22C, J. Nye, Y. Ritter, Y. Safraoui and S. Aubineau.
+    </string>
+    <string name="about_license_section">Licence</string>
+    <string name="about_license_title">Licence utilisée : Beerware License</string>
+    <string name="about_license_content">\"You can do whatever you want with this stuff.
+        If we meet some day, and you think this stuff is worth it, you can buy us a beer (or
+        basically anything else) in return.\"
+    </string>
+    <string name="about_license_content_link">Code source disponible à
+        https://github.com/tvbarthel/ChaseWhisplyProject
+    </string>
+    <string name="sign_in_message">La prochaine fois, sauvegardez, partagez et comparez vos scores
+        avec les autres joueurs en vous connectant via Google Plus !
+    </string>
+    <string name="about_compatibility_mode_label">Forcer le mode de compatibilité</string>
+    <string name="about_label_report_a_bug">Signaler un bug</string>
+    <string name="about_label_contact_us">Envoyez-nous un conseil ou une suggestion</string>
+
+    <!-- Tuto Activity -->
+    <string name="tuto_default_title">Bientôt…</string>
+    <string name="tuto_title_page_0">Chase Whisply</string>
+    <string name="tuto_title_page_1">En jeu\nCibles</string>
+    <string name="tuto_title_page_2">En jeu\nCibles</string>
+    <string name="tuto_title_page_3">En jeu\nCombos</string>
+    <string name="tuto_title_page_4">En jeu\nMouvement</string>
+    <string name="tuto_title_page_5">En jeu\nMunitions</string>
+    <string name="tuto_title_page_6">En jeu\nMunitions</string>
+    <string name="tuto_title_page_7">Inventaire\nCraft</string>
+    <string name="tuto_title_page_8">Menu\nJouer</string>
+    <string name="tuto_title_page_9">Menu\nProfil</string>
+    <string name="tuto_title_page_10">Menu\nClassements</string>
+    <string name="tuto_title_page_11">Menu\nRéussites</string>
+    <string name="tuto_title_page_12">Prêt pour\nle Combat</string>
+    <string name="tuto_button_close">Fermer</string>
+
+    <!-- Tuto Fragment Page Welcome -->
+    <string name="tuto_page_welcome_title">Bienvenue,</string>
+    <string name="tuto_page_welcome_subtitle">padawan.</string>
+    <string name="tuto_page_welcome_content">Votre mission est de
+        traquer, trouver et tuer les fantômes vivants autour de vous.
+    </string>
+    <string name="tuto_page_welcome_additional_text">Glissez vers la gauche pour en apprendre plus.</string>
+
+    <!-- Tuto Fragment Page Play Button -->
+    <string name="tuto_page_play_button_content">Sélectionnez votre mode favori et chassez les fantômes autour de
+        vous.
+    </string>
+
+    <!--Tuto Fragment Page Profile Button -->
+    <string name="tuto_page_profile_button_content">Suivez votre progression et trouvez des informations sur vos ennemis.</string>
+
+    <!-- Tuto Fragment Page Leaderboard Button -->
+    <string name="tuto_page_leaderboard_button_content">Comparez votre score avec ceux de vos amis et devenez le
+        meilleur chasseur au monde.
+    </string>
+
+    <!-- Tuto Fragment Page Achievement Button -->
+    <string name="tuto_page_achievement_button_content">Améliorez vous en tant que chasseur de fantômes et gardez une
+        trace de votre progression.
+    </string>
+
+    <!-- Tuto Fragment Page Aim Tip -->
+    <string name="tuto_page_aim_tip_content">Pour viser avec facilité, imaginez votre téléphone comme un
+        viseur. Ne bougez pas que vos mains, bougez aussi vos bras !
+    </string>
+
+    <!-- Tuto Fragment Target -->
+    <string name="tuto_page_target_content">Vos cibles sont Whisply et ses frères et soeurs.</string>
+    <string name="tuto_page_target_bis_content">Alignez votre curseur en déplaçant votre téléphone et tirez en touchant l\'écran.</string>
+
+    <!-- Tuto Fragment Ammo -->
+    <string name="tuto_page_ammo_content">Surveillez vos munitions en bas à droite de votre écran ou vous serez vite à
+        court de balles.
+    </string>
+    <string name="tuto_page_ammo_bis_content">Vous regagnez des munitions avec le temps.</string>
+
+    <!-- Tuto Fragment Page Ready To Fight -->
+    <string name="tuto_page_ready_to_fight_congratulation">Félicitations, vous êtes prêt à jouer.</string>
+    <string name="tuto_page_ready_to_fight_reaccess_tutorial">Vous pouvez accéder de nouveau à ce tutoriel à tout moment
+        depuis
+        le menu principal.
+    </string>
+    <string name="tuto_page_ready_to_fight_gl_hf">Bonne chance &amp; Amusez-vous bien !</string>
+
+    <!-- Tuto Fragment Page Combos -->
+    <string name="tuto_page_combo_content">Ne manquez pas votre cible et cumulez des combos pour augmenter votre score
+        plus rapidement.
+    </string>
+    <string name="tuto_page_combo_example">x4</string>
+
+    <!-- Tuto Fragment Page Inventory -->
+    <string name="tuto_page_inventory_craft_content">Fabriquez de puissants bonus depuis votre inventaire.</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">Votre Profil</string>
+    <string name="profile_level">Niveau %1$d</string>
+    <string name="profile_exp">Exp %1$d/%2$d</string>
+    <string name="profile_general_information">Information Générale</string>
+    <string name="profile_games_played">Parties jouées</string>
+    <string name="profile_targets_killed">Cibles abatues</string>
+    <string name="profile_bullets_fired">Balles tirées</string>
+    <string name="profile_accuracy">Précision</string>
+    <string name="profile_bestiary_title">Bestiaire</string>
+    <string name="profile_bestiary_description">Trouvez des informations sur les fantômes que vous devez tuer.</string>
+    <string name="profile_weapons_title">Armes</string>
+    <string name="profile_weapons_description">Choisissez judicieusement vos armes avant de commencer à chasser.
+    </string>
+    <string name="profile_inventory_title">Inventaire</string>
+    <string name="profile_inventory_description">Gérez votre inventaire et craftez d\'utiles bonus.</string>
+    <string name="profile_missions_title">Missions</string>
+    <string name="profile_missions_description">Trouvez de nouveaux défis et completez des missions risquées.</string>
+
+    <!-- Bestiary Fragment -->
+    <string name="bestiary_title">Bestiaire</string>
+    <string name="bestiary_health">Point de vie</string>
+    <string name="bestiary_point_value">Score</string>
+    <string name="bestiary_exp_value">Exp</string>
+    <string name="bestiary_easy_ghost_title">Simple Fantôme</string>
+    <string name="bestiary_ghost_with_helmet_title">Fantôme Renforcé</string>
+    <string name="bestiary_baby_ghost_title">Bébé Fantôme</string>
+    <string name="bestiary_hidden_ghost_title">Fantôme Caché</string>
+    <string name="bestiary_king_ghost_title">Roi des Fantômes</string>
+    <string name="bestiary_blond_ghost_title">Fantômette Blonde</string>
+
+    <!-- Inventory Fragment -->
+    <string name="inventory_title">Inventaire</string>
+    <string name="inventory_item_default_title">Titre de l\'item</string>
+    <string name="inventory_item_default_description">Description de l\'item</string>
+    <plurals name="inventory_item_coin_title">
+        <item quantity="one">Vieille Pièce</item>
+        <item quantity="other">Vieilles Pièces</item>
+    </plurals>
+    <string name="inventory_item_coin_description">Cette pièce est tellement vieille que vous avez beaucoup de mal
+        à savoir si elle est faite d\'or ou non. Elle n\'est pas très lourde, vous décidez donc de la garder dans votre
+        sac.
+    </string>
+    <plurals name="inventory_item_broken_helmet_horn_title">
+        <item quantity="one">Corne de Casque Cassée</item>
+        <item quantity="other">Cornes de Casque Cassées</item>
+    </plurals>
+    <string name="inventory_item_broken_helmet_horn_description">Une petite pièce d\'acier qui provient du casque d\'un
+        fantôme.
+        Elle peut être utilisée pour forger d\'utiles objets en acier.
+    </string>
+    <plurals name="inventory_item_baby_drool_title">
+        <item quantity="one">Bave de bébé</item>
+        <item quantity="other">Baves de bébé</item>
+    </plurals>
+    <string name="inventory_item_baby_drool_description">Pour quelle absurde raison devriez vous gardez de la bave de
+        bébé dans un FPS ?!?
+    </string>
+    <plurals name="inventory_item_king_crown_title">
+        <item quantity="one">Couronne du roi</item>
+        <item quantity="other">Couronnes du roi</item>
+    </plurals>
+    <string name="inventory_item_king_crown_description">Un magnifique et recherché bijoux. Vous pouvez sûrement la
+        faire fondre
+        pour en extraire une grande quantité d\'or !
+    </string>
+    <plurals name="inventory_item_steel_bullet_title">
+        <item quantity="one">Balle en acier</item>
+        <item quantity="other">Balles en acier</item>
+    </plurals>
+    <string name="inventory_item_steel_bullet_description">Quand vous tenez cette balle dans votre main, vous pouvez
+        sentir la force de ce lourd projectile. Utiliser des balles en acier vous donne un bonus de +1 en dégats.
+    </string>
+    <plurals name="inventory_item_gold_bullet_title">
+        <item quantity="one">Balle en or</item>
+        <item quantity="other">Balles en or</item>
+    </plurals>
+    <string name="inventory_item_gold_bullet_description">Une balle en or est extrèmement meurtrière pour les fantômes.
+        Utiliser des balles en or vous donne un bonus de +3 en dégats.
+    </string>
+    <plurals name="inventory_item_one_shot_bullet_title">
+        <item quantity="one">Balle \"One-Shot\"</item>
+        <item quantity="other">Balles \"One-Shot\"</item>
+    </plurals>
+    <string name="inventory_item_one_shot_bullet_description">
+        Une balle tellement puissante, qu\'elle peut tuer instantanément n\'importe quel fantôme. Cette balle
+        est très chère, manipuler la avec précaution. Utiliser des balles \"One-Shot\" vous donne un bonus de +10 en dégats.
+    </string>
+    <plurals name="inventory_item_ghost_tear_title">
+        <item quantity="one">Larme de Fantôme</item>
+        <item quantity="other">Larmes de Fantôme</item>
+    </plurals>
+    <string name="inventory_item_ghost_tear_description">
+        Une minuscule larme qui provient probablement d\'une mère fantôme morte en tentant de défendre ses enfants. Vous
+        pouvez sentir une étrange puissance émanant de cette petite goutte.
+    </string>
+    <plurals name="inventory_item_speed_potion_title">
+        <item quantity="one">Potion de vitesse</item>
+        <item quantity="other">Potions de vitesse</item>
+    </plurals>
+    <string name="inventory_item_speed_potion_description">
+        Cette potion ne sent pas bon du tout, mais si vous avez le courage de la boire, vous rechargerez votre arme
+        plus rapidement que jamais. Temps de rechargement -300.
+    </string>
+    <string name="inventory_item_can_t_be_dropped">Ne peut-être ramassé</string>
+    <string name="inventory_item_can_t_be_crafted">Ne peut-être construit</string>
+    <string name="inventory_item_quantity">Quantité</string>
+    <string name="inventory_item_dropped_by">Trouvé Sur</string>
+    <string name="inventory_item_dropped_by_feminine_gender">Trouvée Sur</string>
+    <string name="inventory_item_recipe">Recette</string>
+
+    <!-- Craft Dialog Fragment -->
+    <string name="craft_dialog_fragment_not_enough_resources">Pas assez de ressources, vous avez besoin de %1$s.
+    </string>
+    <string name="craft_dialog_fragment_request">Utiliser %1$s pour fabriquer 1x %2$s?</string>
+    <string name="craft_dialog_fragment_ok_response">Ok</string>
+    <string name="craft_dialog_fragment_yes_response">Oui</string>
+    <string name="craft_dialog_fragment_no_response">Non</string>
+
+    <!-- Bonus -->
+    <string name="bonus_title">Equipez un bonus</string>
+    <string name="bonus_effect">Effet</string>
+    <string name="bonus_quantity">Quantité Disponible</string>
+    <string name="bonus_damage_effect">Dégat +%1$s</string>
+    <string name="bonus_speed_effect">Temps de rechargement -%1$s</string>
+    <string name="bonus_help_title">Aide</string>
+    <string name="bonus_help_message">Les bonus peuvent être fabriqués à partir de votre inventaire. Vous trouverez votre inventaire dans votre profil.</string>
+
+
+    <!-- In Game Tutorial -->
+    <string name="tuto_step_welcome">Bienvenue dans le tutoriel, appuyez sur l\'écran pour passer aux étapes suivantes.</string>
+    <string name="tuto_step_ui_welcome">Découvrons ensemble l\'interface de jeu.</string>
+    <string name="tuto_step_crosshair">Au centre vous trouverez votre viseur.</string>
+    <string name="tuto_step_combo">Ne manquez aucune cible et vous cumulerez des combos !</string>
+    <string name="tuto_step_ammos">Surveillez vos munitions en bas à droite.</string>
+    <string name="tuto_step_ammos_2">Vous regagnez des munitions au cours du temps.</string>
+    <string name="tuto_step_score">Suivez votre score en bas à gauche.</string>
+    <string name="tuto_step_serious_things">Passons aux choses serieuses.</string>
+    <string name="tuto_step_target">Alignez votre viseur avec le fantôme en déplaçant votre téléphone…</string>
+    <string name="tuto_step_kill">…Puis appuyez n\'importe où sur votre écran pour tirer.</string>
+    <string name="tuto_step_congratulation">Bravo vous venez de tuer votre premier fantôme !</string>
+    <string name="tuto_step_target_2">Attention, certains fantômes sont plus forts…</string>
+    <string name="tuto_step_kill_2">…Tirez plusieurs fois !</string>
+    <string name="tuto_step_congratulation_2">Tutoriel terminé. Vous êtes maintenant fin prêt pour l\'aventure !</string>
+    <string name="tuto_step_end">Tutoriel terminé !</string>
+
+    <!-- GameMode details -->
+    <string name="progression">Progression</string>
+    <string name="fragment_detail_important_title">Important !</string>
+    <string name="fragment_detail_important_content">Si vous rencontrez des problèmes en jeu, vous pouvez forcer le mode de compatibilité depuis les paramètres. Dans la plupart des cas, cela les corrigera.</string>
+
+    <!-- Military ranks -->
+    <string name="military_ranks">Grades</string>
+    <string name="deserter">Déserteur</string>
+    <string name="soldier">Soldat</string>
+    <string name="corporal">Caporal</string>
+    <string name="sergeant">Sergent</string>
+    <string name="admiral">Amiral</string>
+
+    <!-- Death To The King -->
+    <string name="game_mode_death_to_the_king_instruction">Dès que vous êtes prêt, appuyez sur l\'écran pour invoquer le roi et ses acolytes !</string>
+
+    <!-- Memorize -->
+    <string name="game_mode_memorize_instruction">Mémorisez\n%1$s</string>
+    <string name="game_mode_memorize_wave">Vague %1$d</string>
+
+    <string name="toast_compatibility_mode">Mode de compatibilité</string>
+
+</resources>

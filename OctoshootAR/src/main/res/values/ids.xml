@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2016. Nikhil Nayak <nikhilnayak98@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_id">923813336670</string>
+    <string name="package_name">com.nikhilnayak.games.octoshootar</string>
+
+    <!-- Achievements -->
+    <string name="achievement_pacifist">CgkI3qzDvPEaEAIQAQ</string>
+    <string name="achievement_curiosity">CgkI3qzDvPEaEAIQAg</string>
+    <string name="achievement_soldier">CgkI3qzDvPEaEAIQAw</string>
+    <string name="achievement_corporal">CgkI3qzDvPEaEAIQBA</string>
+    <string name="achievement_sergeant">CgkI3qzDvPEaEAIQBQ</string>
+    <string name="achievement_thrifty">CgkI3qzDvPEaEAIQBg</string>
+    <string name="achievement_novice_looter">CgkI3qzDvPEaEAIQBw</string>
+    <string name="achievement_trained_looter">CgkI3qzDvPEaEAIQCA</string>
+    <string name="achievement_expert_looter">CgkI3qzDvPEaEAIQCQ</string>
+    <string name="achievement_scouts_first_admiral_rank">CgkI3qzDvPEaEAIQCg</string>
+    <string name="achievement_everything_is_an_illusion_admiral_rank">CgkI3qzDvPEaEAIQCw</string>
+    <string name="achievement_prove_your_stamina__admiral_rank">CgkI3qzDvPEaEAIQDA</string>
+    <string name="achievement_brainteaser_admiral_rank">CgkI3qzDvPEaEAIQDQ</string>
+    <string name="achievement_death_to_the_king_admiral_rank">CgkI3qzDvPEaEAIQDg</string>
+    <string name="achievement_the_final_battle_admiral_rank">CgkI3qzDvPEaEAIQDw</string>
+
+    <!-- Leaderboards -->
+    <string name="leaderboard_overall_ranking">CgkI3qzDvPEaEAIQEA</string>
+    <string name="leaderboard_scouts_first">CgkI3qzDvPEaEAIQEQ</string>
+    <string name="leaderboard_everything_is_an_illusion">CgkI3qzDvPEaEAIQEg</string>
+    <string name="leaderboard_prove_your_stamina">CgkI3qzDvPEaEAIQEw</string>
+    <string name="leaderboard_brainteaser">CgkI3qzDvPEaEAIQFA</string>
+    <string name="leaderboard_death_to_the_king">CgkI3qzDvPEaEAIQFQ</string>
+    <string name="leaderboard_the_final_battle">CgkI3qzDvPEaEAIQFg</string>
+    <string name="leaderboard_sprint_hall_of_fame">CgkI3qzDvPEaEAIQFw</string>
+    <string name="leaderboard_marathon_hall_of_fame">CgkI3qzDvPEaEAIQGA</string>
+    <string name="leaderboard_survival_hall_of_fame">CgkI3qzDvPEaEAIQGQ</string>
+    <string name="leaderboard_beta_tester_hall_of_fame_1">CgkI3qzDvPEaEAIQGg</string>
+    <string name="leaderboard_beta_tester_hall_of_fame_2">CgkI3qzDvPEaEAIQGw</string>
+    <string name="leaderboard_beta_tester_hall_of_fame_3">CgkI3qzDvPEaEAIQHA</string>
+</resources>
