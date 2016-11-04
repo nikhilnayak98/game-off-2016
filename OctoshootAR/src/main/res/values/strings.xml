@@ -33,7 +33,7 @@
     <string name="soon_tm">Soon …</string>
 
     <!-- Home Activity !-->
-    <string name="home_play">Start</string>
+    <string name="home_play">Play</string>
     <string name="home_leaderboard">Leaderboards</string>
     <string name="home_achievement">Achievements</string>
     <string name="home_about">About</string>
