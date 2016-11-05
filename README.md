@@ -3,7 +3,8 @@ OctoshootAR
 =============
 A augmented reality game for github game-off 2016!
 You have to seek, find and kill the octocats living around you.
-[![Download](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.nikhilnayak.games.octoshootar)
+Will be available shortly on Google Play
+<!--[![Download](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.nikhilnayak.games.octoshootar)-->
 
 License
 ========
@@ -51,5 +52,3 @@ Compile SDK Version - 24
 [Releases](https://github.com/nikhilnayak98/pgtrack-android-client/releases)
 ===========================================================================
 
-#### v1.0.2
-  [Download](https://github.com/nikhilnayak98/game-off-2016/releases/download/v1.0.2/OctoshootAR-debug.apk) 
