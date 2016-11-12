@@ -55,7 +55,6 @@ public class GameActivity extends ARActivity implements GameEngine.IGameEngine {
         }
     }
 
-
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
