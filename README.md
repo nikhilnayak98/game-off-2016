@@ -1,5 +1,5 @@
 ![OctoshootAR banner](static/banner.png)
-OctoshootAR [![Build Status](https://travis-ci.org/nikhilnayak98/game-off-2016.svg?branch=master)](https://travis-ci.org/nikhilnayak98/game-off-2016)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nikhilnayak98/game-off-2016/LICENSE)
+OctoshootAR [![Build Status](https://travis-ci.org/nikhilnayak98/game-off-2016.svg?branch=master)](https://travis-ci.org/nikhilnayak98/game-off-2016) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nikhilnayak98/game-off-2016/LICENSE)
 =============
 A augmented reality game for github game-off 2016!
 You have to seek, find and kill the octocats living around you.
